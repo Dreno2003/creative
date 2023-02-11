@@ -85,15 +85,15 @@ export function Home() {
     <Button action="Get In Touch" />
     </section>
 
-    <section id="ServiceSection" className="lg:px-16 px-6 py-16 bg-contain bg-repeat bg-service-section ">
+    <section id="ServiceSection" className="lg:px-16 px-6 py-16 bg-cover bg-no-repeat bg-service-section ">
     <div className="" >
     <Heading heading="Our Services" />
     <Subheading  subheading="We have developed, implemented and deployed exciting, innovative user-friendly projects and products that are attuned to our client preferences whilst retaining our onus for quality."/>
 
     <div className="mt-8 md:flex md:flex-wrap md:gap-11 md:mt-14 lg:gap-6 md:justify-between lg:justify-between">
+    
     <div className="bg-white rounded-t-md rounded-b-md my-6 md:my-0 md:w-[46%] lg:w-[31%]">
     <img src={require("../components/assests/images/img two/one.jpg") } className="mb-5 min-w-full rounded-t-md" alt=""/>
-
     <div className="text-center py-6"><h4 className="font-bold">Luxury App Dev</h4> <h5 className="font-thin">Fashion App for users</h5></div>
     </div>
 

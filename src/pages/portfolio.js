@@ -35,7 +35,7 @@ export const Portfolio = () => {
 
       {/*hero section start */}
     <section>
-    <div className='lg:px-16 px-6  h-[90vh] lg:h-[34em] bg-bg-port bg-no-repeat bg-origin-border bg-center bg-cover flex justify-center text-left flex-col'>
+    <div className='lg:px-16 px-6  h-[90vh] bg-bg-port bg-no-repeat bg-origin-border bg-center bg-cover flex justify-center text-left flex-col'>
     <div className="text-white w-[95%] md:w-full">
     
     <h3 className="text-[2em] font-bold lg:text-[3em] xl:text-[3.4em]">Some Clients We've Worked With</h3>
