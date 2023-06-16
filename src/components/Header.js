@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
 import { FaAlignLeft } from "react-icons/fa";
 
-
-
-
 export const Header = () => {
 
 	
@@ -29,9 +26,7 @@ export const Header = () => {
 
 		</ul> }
 		<div id="navbar" onClick={handleNavToggle}><FaAlignLeft size={'1.5em'}  /></div>
-		
-
-
+\
 		</header>
 
 		<header className="px-6 hidden lg:block justify-between py-4 lg:px-16 lg:text-[1.2em]">
